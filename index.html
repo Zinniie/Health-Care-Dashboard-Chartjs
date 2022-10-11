@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>H-care Medical App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- NavBar --> 
+    <nav class="navbar fixed-top top-nav  px-5 bg-white d-flex align-items-center justify-content-between ">
+        <div class="side-nav__brand  d-flex align-items-center justify-content-between">
+            <div class="side-nav_img w-25">
+                <img src="./images/h-care-logo.png" alt="H-care">
+            </div>
+            <div class="side-nav_text w-75 d-flex align-items-center justify-content-center mt-1">
+                H-care
+            </div>
+        </div>
+        <div class="top-nav-search d-flex ">
+            <div class="search-icon "><i class="fa-solid fa-magnifying-glass"></i></div>
+            <div class="search mx-4">Search...</div>
+        </div>
+        <div class="nav-right d-flex align-items-center justify-content-between">
+            <div class="noti-icon px-2 d-flex align-items-center justify-content-center ">
+                
+                <i class="notify-icon fa-solid fa-bell"></i>
+            </div>
+
+            <div class="profile-icon mx-3  shadow-sm">
+                <!-- profile -->
+            </div>
+            <div class="profile-name">Emma Kwan</div>
+            <div class="dropdown mx-3"><ion-icon name="chevron-down-outline"></ion-icon></div>
+        </div>
+      </nav>
+   
+    <div class="d-flex align-items-start main-cover">
+        <div class="side-left-container bg-white px-4">
+            <div class="side-nav">
+                <div class="side-nav_items">
+                    <div class="side-nav__link-cover shadow-lg d-flex align-items-center justify-content-center rounded-3  px-4 ">
+                        
+                        <a href="http://" class="side-nav__link d-block text-decoration-none">Register patient</a>
+                        <div class="side-nav-icon d-flex align-items-center justify-content-center">
+                            <ion-icon class="add text-white" name="add"></ion-icon>
+                        </div>
+                    </div>
+
+                    <div class="side-fill-icon d-flex my-4 rounded-2  px-3 pt-4 ">
+                        <div class="side-icon">
+                            <ion-icon class="" name="people"></ion-icon>
+                        </div>
+                        <a href="http://" class="side-nav__link d-block text-decoration-none">Patients</a>
+                    </div>
+                    <div class="side-fill-iconn d-flex my-4 rounded-2 px-3 pt-2 ">
+                        <div class="side-icon">
+                            <ion-icon class="side-pie" name="pie-chart"></ion-icon>
+                        </div>
+                        <a href="http://" class="side-nav__link d-block text-decoration-none">Overwiew</a>
+                    </div>
+                    <div class="side-fill-icon d-flex my-4 rounded-2  px-3 pt-2">
+                        <div class="side-icon">
+                            <ion-icon name="location"></ion-icon>
+                        </div>
+                        <a href="http://" class="side-nav__link d-block text-decoration-none">Map</a>
+                    </div>
+                    <div class="side-fill-icon d-flex my-4 rounded-2  px-3 pt-2">
+                        <div class="side-icon">
+                            <ion-icon name="home"></ion-icon>
+                        </div>
+                        <a href="http://" class="side-nav__link d-block text-decoration-none">Departments</a>
+                    </div>
+                    <div class="side-fill-icon d-flex my-4 rounded-2  px-3 pt-2">
+                        <div class="side-icon">
+                            <ion-icon name="medkit"></ion-icon>
+                        </div>
+                        <a href="http://" class="side-nav__link d-block text-decoration-none">Doctors</a>
+                    </div>
+                    <div class="side-fill-icon d-flex my-4 rounded-2  px-3 pt-2 ">
+                        <div class="side-icon">
+                            <ion-icon name="id-card"></ion-icon>
+                        </div>
+                        <a href="http://" class="side-nav__link d-block text-decoration-none">History</a>
+                    </div>
+                    <div class="side-fill-icon d-flex my-4 rounded-2  px-3 pt-2 mt-5">
+                        <div class="side-icon">
+                            <ion-icon name="settings"></ion-icon>
+                        </div>
+                        <a href="http://" class="side-nav__link d-block text-decoration-none">Settings</a>
+                    </div>
+
+                    <div class="anime-container rounded-3 ">
+                        <div class="anime rounded-3 ">
+                            <img class="anime-img" src="./images/anime.png" alt="h-care">
+                            
+                        </div>
+                        <div class="mobile-app-icon ">
+                            <div class="mobile-text d-flex align-items-center justify-content-center mt-4">Get mobile app</div>
+                            <div class="app d-flex align-items-center justify-content-center">
+                                <div class="app-icon "><img class="d-flex playstore-icon" src="./images/playstore.png" alt=""></div>
+                                <div class="app-icon "><img class="apple-icon" src="./images/apple.png" alt=""></div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-container ">
+            
+            <!-- Content -->
+            <div class="main-content p-4  ">
+                <div class="container-fluid">
+                    <div class="row first-row">
+                        <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                            <div class="top-card border border rounded-3 py-3 px-4 ">
+                                <div class="card-bottom d-flex  align-items-center mx-3 mt-4">
+                                    <div class="card-img patients mx-1 d-flex align-items-center justify-content-center">
+                                        <i class="fa-solid fa-bed"></i>
+                                    </div>
+                                    <div class="card-caption mx-4">
+                                        <div class="figure">3,256</div>
+                                        <div class="figure-text">Total Patients</div>
+                                    </div>
+                                    <div class="end-dot ">
+                                        <ion-icon name="ellipsis-horizontal" class="end-icon"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                            <div class="top-card border border rounded-3 py-3 px-4">
+                                <div class="card-bottom d-flex  align-items-center mx-3 mt-4">
+                                    <div class="card-img staff mx-1 d-flex align-items-center justify-content-center">
+                                        <i class="fa-solid fa-users"></i>
+                                    </div>
+                                    <div class="card-caption mx-4">
+                                        <div class="figure">394</div>
+                                        <div class="figure-text">Available Staff</div>
+                                    </div>
+                                    <div class="end-dot ">
+                                        <ion-icon name="ellipsis-horizontal" class="end-icon"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                            <div class="top-card border border rounded-3 py-3 px-4 ">
+                                <div class="card-bottom d-flex align-items-center mx-3 mt-4">
+                                    <div class="card-img avg-cost mx-1 d-flex align-items-center justify-content-center">
+                                        <i class="fa-solid fa-wallet"></i>
+                                    </div>
+                                    <div class="card-caption mx-4">
+                                        <div class="figure">$2,536</div>
+                                        <div class="figure-text">Avg Treat. Costs</div>
+                                    </div>
+                                    <div class="end-dot ">
+                                        <ion-icon name="ellipsis-horizontal" class="end-icon"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                            <div class="top-card border border rounded-3 py-3 px-4">
+                                <div class="card-bottom d-flex  align-items-center mx-3 mt-4">
+                                    <div class="card-img cars mx-1 d-flex align-items-center justify-content-center">
+                                        <i class="fa-solid fa-truck-medical"></i>
+                                    </div>
+                                    <div class="card-caption mx-4">
+                                        <div class="figure">38</div>
+                                        <div class="figure-text">Available Cars</div>
+                                    </div>
+                                    <div class="end-dot ">
+                                        <ion-icon name="ellipsis-horizontal" class="end-icon"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row second-row mt-5">
+                        <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9 col-xxl-9">
+                            <div class="middle-card bg-white rounded-3 ">
+                                <div class="d-flex px-5 py-4 align-items-center justify-content-between middle-top__content pb-3">
+                                    <div class="patients-trend mb-3">Outpatients vs Inpatients Trend</div>
+                                    <div class="middle-dot d-flex align-items-center justify-content-center">
+                                        <div class="mx-3"><span>Show</span>  by months</div>
+                                        <div><ion-icon class="mt-2" name="chevron-down-outline"></ion-icon></div>
+                                    </div>
+                                </div>
+
+                                <div class="charts d-flex  p-4">
+                                    <div class="barchart1 w-75 mt-3">
+                                        <canvas id="barChart"></canvas>
+                                    </div>
+                                    <div class="doughnut-chart w-25 mx-3">
+                                        <canvas id="doughnutchart" ></canvas>
+
+                                        <div class="gender-note d-flex align-items-center justify-content-center mt-4">
+                                            <div class="inpatients mx-2 d-flex align-items-center justify-content-center">
+                                                <div class="inp-circle mx-2"></div>
+                                                <div class="Inp">Inpatients</div>
+                                            </div>
+                                            
+                                            <div class="outpatients mx-2 d-flex align-items-center justify-content-center">
+                                                <div class="out-circle mx-2"></div>
+                                                <div class="Inp ">Outpatients</div>
+                                            </div>
+                                        </div>
+                                        <div class="inside-icon shadow-sm bg-white d-flex align-items-center justify-content-center"><ion-icon class=" fs-3" name="people"></ion-icon></div> 
+                                          
+                                    </div>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                            <div class="middle-cardd bg-white rounded-3 border border">
+                                <div class=" middle-top__content  px-4 py-4 mt-2">
+                                    Patients by Gender
+                                        
+                                </div>
+                                <div class="doughnut-chart2 mt-5">
+                                    
+                                    <canvas id="doughnutchart2"></canvas>
+                                </div>
+                                <div class="gender-note2 d-flex align-items-center justify-content-center mt-4">
+                                    <div class="female mx-2 d-flex align-items-center justify-content-center">
+                                        <div class="fem-circle mx-2"></div>
+                                        <div class="fem">Female</div>
+                                    </div>
+                                    <div class="male mx-2 d-flex align-items-center justify-content-center">
+                                        <div class="male-circle mx-2"></div>
+                                        <div class="maler">Male</div>
+                                    </div>
+                                </div>
+                                <div class="inside-icon2 shadow-sm bg-white d-flex align-items-center justify-content-center"><i class="fa-solid fa-notes-medical fs-3"></i></div>
+                            </div>
+                        </div>
+                       
+                    </div>
+
+                    <div class="row third-row mt-5">
+                        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                            <div class="middle-card bg-white rounded-3 border border ">
+                                <div class="d-flex  align-items-center justify-content-between middle-top__content px-5 py-4 mt-2">
+                                    <div class="patients-trend ">Time Admitted</div>
+                                    <div class="middle-dot">
+                                        Today
+                                    </div>
+                                </div>
+
+                                <div class="chart">
+                                    <div class="line mt-3">
+                                        <canvas id="line-chart"></canvas>
+                                    </div>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                            <div class="patient-table bg-white rounded-3 border border ">
+                                <div class="patients-head p-4 d-flex align-items-center justify-content-between">
+                                    <div class="m-3 patients-head-text ">Patients By Divison</div>
+                                    <div class="patients-icon m-3"><ion-icon name="chevron-down-outline"></ion-icon></div>
+                                </div>
+
+                                <div class="table-heading shadow-sm px-3 d-flex align-items-center justify-content-between">
+                                    <div class="m-3"><i class="fa-sharp fa-solid fa-house"></i></div>
+                                    <div class="patients-head-text">DIVISION</div>
+                                    <div class="patients-test ">PT.</div>
+                                </div>
+                                
+                                <div class="px-4 mt-4">
+                                    <table class="table table-borderless">
+                                        <tbody>
+                                          <tr >
+                                            <td scope="row"><ion-icon name="pulse-outline"></ion-icon></th>
+                                            <td>Cardiology</td>
+                                            <td class="tbody-num">247</td>
+                                           
+                                          </tr>
+                                          <tr>
+                                            <td scope="row"><i class="fa-solid fa-brain"></i></th>
+                                            <td >Neurology</td>
+                                            <td class="tbody-num">164</td>
+                                          </tr>
+                                          <tr>
+                                            <td scope="row"><i class="fa-solid fa-scissors"></i></th>
+                                            <td >Surgery</td>
+                                            <td class="tbody-num">86</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                </div>
+                                
+                                </div>
+                                
+                                
+                            </div>
+
+                            <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                                <div class="middle-card-ddown rounded-3 border border p-3">
+                                    <div class="d-flex align-items-center justify-content-between middle-top__contented">
+                                        <div class="line-num-main">
+                                            <div class="line-num">3,240</div>
+                                            <div class="line-nump">Patients this month</div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="linechart mt-3">
+                                        
+                                        <div class="line2 ">
+                                            <canvas id="line-chart2"></canvas>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                </div>
+                            </div>
+                        
+                        </div>
+
+                        
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.1.0/chartjs-plugin-datalabels.min.js" integrity="sha512-Tfw6etYMUhL4RTki37niav99C6OHwMDB2iBT5S5piyHO+ltK2YX8Hjy9TXxhE1Gm/TmAV0uaykSpnHKFIAif/A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

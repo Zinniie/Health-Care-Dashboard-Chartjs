@@ -1,0 +1,400 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+
+.main-cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  background-color: #f5f6fa;
+}
+.top-nav {
+  height: 75px;
+  font-size: 20px;
+  border-bottom: #eee;
+  color: #9fa4b8;
+  font-weight: 600;
+}
+.side-nav_text {
+  color: #1d2237;
+  margin-left: 20px;
+}
+.top-nav-search {
+  margin-right: 1090px;
+}
+
+.notify-icon {
+  font-size: 22px;
+}
+.profile-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: url("https://media.istockphoto.com/photos/portrait-of-beautiful-woman-at-dental-office-picture-id1352931031?b=1&k=20&m=1352931031&s=170667a&w=0&h=kwZxk5rtwOKtJ_MQFU319H6SPVy1ftsvjrdRr1kGHNw=");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.side-left-container {
+  margin-top: 64px;
+  width: 350px;
+  height: 100vh;
+}
+.side-nav_img img {
+  height: 40px;
+}
+.side-nav_text {
+  font-size: 24px;
+  margin-left: 15px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  color: #44495d;
+}
+.side-nav-icon {
+  margin-left: 15px;
+}
+.side-icon {
+  margin-right: 15px;
+}
+.side-fill-icon,
+.side-fill-icon a {
+  color: #9ea4b7;
+  font-weight: 600;
+  font-size: 18px;
+}
+.side-fill-icon ion-icon,
+.side-fill-iconn ion-icon {
+  font-size: 25px;
+}
+.side-pie {
+  color: #703ada;
+}
+.side-fill-iconn a {
+  color: #44495d;
+  font-weight: 600;
+  font-size: 18px;
+}
+.side-nav__link-cover:nth-child(1) {
+  background-color: #703ada;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.side-nav__link-cover:nth-child(1) a {
+  margin-right: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.side-nav__link-cover:nth-child(1) {
+  height: 60px;
+}
+.side-nav__link-cover:nth-child(1) > .side-nav__link {
+  color: #ebe3f8;
+}
+.add{
+  color: #fdfdfd;
+  font-size: 24px;
+  font-weight: 900;
+}
+.anime-container {
+  position: relative;
+  margin-top: 46px;
+  background-color: #d9cfeace;
+  height: 270px;
+  border: 1px solid #eee;
+}
+.anime {
+  height: 40%;
+  background: #f5effd;
+  border: 2px solid rgb(237, 231, 231);
+}
+.anime-img {
+  position: absolute;
+  top: -18px;
+  left: 50px;
+  height: 125px;
+}
+.mobile-text {
+  font-size: 20px;
+  font-weight: 600;
+  color: #33394d;
+}
+.app {
+  margin-top: 10px;
+  gap: 10px;
+}
+.playstore-icon {
+  height: 48px;
+  width: 48px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.apple-icon {
+  height: 62px;
+  width: 62px;
+}
+.app-icon {
+  border-radius: 50%;
+  background-color: white;
+  height: 62px;
+  width: 62px;
+}
+
+.right-container {
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.main-content {
+  margin-top: 80px;
+}
+.top-card {
+  height: 160px;
+  background: white;
+  /* width: 96%; */
+}
+.card-bottom {
+  position: relative;
+}
+.card-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.card-img:nth-child(1) {
+  background-color: #f1eafa;
+}
+.end-dot {
+  top: -20px;
+  left: 300px;
+  position: absolute;
+}
+.end-icon {
+  color: #c5cad5;
+  font-size: 24px;
+}
+.patients i {
+  color: #733eda;
+  font-size: 24px;
+}
+.staff {
+  background: #edf8ff !important;
+}
+.staff i {
+  color: #49b7fe;
+  font-size: 24px;
+}
+.avg-cost {
+  background: #fef2ee !important;
+}
+.avg-cost {
+  color: #fe8955;
+  font-size: 24px;
+}
+.cars {
+  background: #feeef1 !important;
+}
+.cars i {
+  color: #fb5080;
+  font-size: 24px;
+}
+.figure {
+  font-size: 30px;
+  font-weight: bold;
+  color: #2b3648;
+}
+.figure-text{
+  color: #878c9b;
+  font-size: 18px;
+  font-weight: 600;
+}
+.card-icon {
+  color: orange;
+  font-size: 20px;
+}
+.line-num {
+  font-size: 40px;
+  font-weight: 600;
+}
+.line-nump {
+  font-size: 20px;
+  font-weight: 200;
+}
+.line-num-main {
+  color: #fcf6fe;
+  padding: 10px;
+  margin-left: 20px;
+}
+.middle-top__content {
+  border-bottom: 1px solid #eee;
+}
+.middle-card {
+  font-size: 22px;
+  color: #313335;
+  font-weight: 600;
+}
+.middle-dot span,
+.middle-dot ion-icon {
+  color: #99a0b2;
+}
+.middle-cardd {
+  font-size: 22px;
+  color: #313335;
+  font-weight: 600;
+  height: 390px;
+}
+.gender-note {
+  font-size: 20px;
+}
+.gender-note2 {
+  font-size: 20px;
+  margin-right: 100px;
+}
+.inp-circle {
+  background-color: #713bdb;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+.out-circle {
+  background-color: #33d69f;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+.male-circle {
+  background-color: #713bdb;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+.fem-circle {
+  background-color: #fe8a55;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+.inside-icon {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  color: #99a0b2;
+  position: absolute;
+  top: 60px;
+  left: 120px;
+}
+.inside-icon2 {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  color: #99a0b2;
+  position: absolute;
+  left: 170px;
+  top: 195px;
+}
+.middle-cardd {
+  position: relative;
+}
+.patient-table {
+  height: 387px;
+}
+.patients-icon {
+  font-size: 18px;
+  color: #99a0b2;
+}
+.patients-head {
+  border-bottom: 1px solid #eee;
+  color: #313335;
+  font-size: 28px;
+  font-weight: 600;
+  height: 90px;
+}
+.patients-head-text {
+  margin-right: 96px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.patients-test {
+  margin-right: 55px;
+}
+
+.table-heading {
+  font-weight: 500;
+  color: #d0d0d6;
+  font-size: 20px;
+}
+tbody {
+  color: #99a0b2;
+  font-weight: 600;
+  font-size: 22px;
+}
+.tbody-num {
+  color: #5f606b;
+  /* font-weight: 700; */
+}
+.middle-card-ddown {
+  height: 390px;
+  color: #fcfbfd;
+  background: linear-gradient(
+    to right,
+    #713bdb 0%,
+    #713bdb 72%,
+    #642ad6 28%,
+    #642ad6 100%
+  );
+}
+
+/* charts */
+#doughnutchart2 {
+  position: relative;
+  height: 175px;
+}
+
+#line-chart {
+  height: 280px;
+}
+#line-chart2 {
+  /* margin-right: 300px; */
+  height: 200px;
+}
+.charts {
+  height: 300px;
+}
+.doughnut-chart {
+  position: relative;
+  height: 170px;
+  margin-top: 30px;
+}
+.barchart1{
+  padding: 0 18px 0 18px;
+}
+.line{
+  padding: 0 28px 0 28px;
+}
+/* 
+  .doughnut-chart2{
+    height: 100px;
+  } */
+.ch {
+  color: rgba(0, 210, 255, 0.3);
+  color: rgb(221, 168, 146);
+  color: rgb(252, 252, 253);
+  color: rgb(175, 145, 234);
+}
+
+tr {
+  line-height: 45px;
+  /* height: 25px;
+  min-height: 25px; */
+}
